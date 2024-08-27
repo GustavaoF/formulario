@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO GUSTAVAO DA MASSA</title>
+</head>
+<body>
+    
+    <form action="https://formspree.io/f/xkgwyrqd" method="post">
+
+        <p>Digite Seu Nome:</p>
+        <input type="text" name="nome" placeholder="Seu nome" required>
+
+        <p>Digite Seu Email:</p>
+        <input type="email" name="email" value="@gmail.com.br" placeholder="Seu email" required>
+
+        <p>Digite Seu Telefone:</p>
+        <input type="number" name="numero" placeholder="Seu telefone aqui!" required>
+
+        <div>
+            <p>Você trabalha?</p>
+            <input type="radio" name="trabalho" value="sim" checked> Sim
+            <input type="radio" name="trabalho" value="nao"> Não    
+            </div>
+
+        <p>Qual Estado Você Mora?</p>
+        <select name="estados">
+            <option value="1">Acre</option>
+            <option value="2">Amapá</option>
+            <option value="3">Rondonia</option>
+            <option value="4">Roraima</option>
+            <option value="5">Amazonas</option>
+            <option value="6">Maranhão</option>
+            <option value="7">Rio Grande do Sul</option>
+            <option value="8">Rio Grande do Norte</option>
+            <option value="9">Paraná</option>
+            <option value="10">Santa Catarina</option>
+            <option value="11">São Paulo</option>
+            <option value="12">Minas Gerais</option>
+            <option value="13">Rio de Janeiro</option>
+            <option value="14">Espírito Santo</option>
+            <option value="15">Goiás</option>
+            <option value="16">Distrito Federal</option>
+            <option value="17">Mato Grosso</option>
+            <option value="18">Mato Grosso do Sul</option>
+            <option value="19">Tocantins</option>
+            <option value="20">Ceará</option>
+            <option value="21">Bahia</option>
+            <option value="22">Paraíba</option>
+            <option value="23">Pernambuco</option>
+            <option value="24">Sergipe</option>
+            <option value="25">Alagoas</option>
+            <option value="26">Piaui</option>
+        </select>
+
+        <p>Você aceita nossos termos de serviço?</p>
+        <input type="checkbox" name="servico" value="sim" checked required> Sim
+        <input type="checlbox" name="servico" value="nao">
+
+        <p>O Que Você Achou do Site?</p>
+        <textarea name="feedback" required></textarea>
+
+        <button type="submit">Enviar formulário</button>
+        <button type="reset">Reiniciar</button>
+    </form>
+
+</body>
+</html>
